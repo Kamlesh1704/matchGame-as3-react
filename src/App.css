@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: rgb(55, 27, 54);
+  margin-bottom: 0;
+  height: 10vh;
+}
+ul {
+  list-style: none;
+}
+.imgnav {
+  height: 40px;
+  width: 180px;
+  margin-left: 18px;
+  margin: 10px;
+}
+.clockimg {
+  height: 30px;
+  width: 35px;
+  margin-left: 5px;
+}
+.divscore {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-right: 15px;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.div2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+}
+.bigimg {
+  text-align: center;
+  height: 250px;
+  width: 630px;
+  margin-top: 15px;
+}
+.tabul {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  list-style: none;
+}
+.thumbdiv {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  list-style: none;
+  width: 740px;
+}
+.thumbimg {
+  height: 99px;
+  width: 120px;
+}
+.ul {
+  list-style-type: none;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-lg-bg.png');
+  height: 570px;
+  width: 500px;
+  flex-direction: column;
+}
+
+.trophy {
+  height: 100px;
+  width: 100px;
+}
+.score {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.yourscore {
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+}
+.reset {
+  height: 30px;
+  width: 20px;
+}
+.playagain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(88, 12, 12);
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+.scorecards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+}

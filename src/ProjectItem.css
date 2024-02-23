@@ -1,0 +1,10 @@
+.thumbimg {
+  border-radius: 7px;
+  margin: 10px;
+  height: 80px;
+  width: 108px;
+}
+.but {
+  background-color: transparent;
+  border: none;
+}

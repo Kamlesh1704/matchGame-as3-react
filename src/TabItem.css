@@ -1,0 +1,25 @@
+.lii {
+  margin-right: 30px;
+}
+.buttonn {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Gill Sans';
+ 
+}
+.active {
+ border-width: 3px;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-color: rgb(255, 0, 0);
+  color: rgb(176, 50, 50);
+  background-color: transparent;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Gill Sans';
+   height: 70px;
+}
